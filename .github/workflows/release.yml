@@ -1,0 +1,67 @@
+name: Build pack
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  release:
+    name: Create release
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '>=1.21'
+
+      - name: Install Packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Refresh Packwiz Index
+        working-directory: modpack
+        run: packwiz refresh
+
+      - name: Resolve and Download All Mods
+        working-directory: modpack
+        run: |
+          packwiz serve &
+          SERVER_PID=$!
+
+          sleep 2
+
+          mkdir dist
+          cd dist
+
+          wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+
+          java -jar packwiz-installer-bootstrap.jar http://localhost:8080/pack.toml
+
+          rm packwiz-installer*
+
+          kill $SERVER_PID
+
+      - name: Zip the Final Distribution
+        run: |
+          cd dist
+          zip -r ../pack.zip .
+
+      - name: Publish to GitHub Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          files: pack.zip
+          generate_release_notes: true

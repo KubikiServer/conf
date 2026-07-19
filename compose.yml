@@ -11,7 +11,7 @@ services:
       VERSION: "1.21.1"
       MEMORY: "12288M"
       MOTD: "Kubiki Q3 2026\\nPublic testing"
-      ICON: "https://github.com/KubikiServer/conf/blob/master/server/icon.png?raw=true"
+      ICON: "http://confserver:8080/icon.png"
       OVERRIDE_ICON: "true"
       ONLINE_MODE: "false"
       USE_AIKAR_FLAGS: "true"
@@ -50,6 +50,7 @@ services:
       - "8080"
     volumes:
       - ./modpack:/conf
+      - ./icon.png:/conf/icon.png
     networks:
       - main
 
