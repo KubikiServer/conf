@@ -1,12 +1,13 @@
 # install docker
 
 apt update
-apt install ca-certificates curl
+apt install ca-certificates curl -y
 install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
 chmod a+r /etc/apt/keyrings/docker.asc
 
 # Add the repository to Apt sources:
+rm /etc/apt/sources.list.d/docker.sources
 tee /etc/apt/sources.list.d/docker.sources <<EOF
 Types: deb
 URIs: https://download.docker.com/linux/debian
@@ -18,9 +19,9 @@ EOF
 
 apt update
 
-apt install ufw
+apt install ufw docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin-y
 
 ufw allow 22
 ufw allow 25565
-ufw enable
+ufw enable -y
 ufw reload
