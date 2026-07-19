@@ -19,7 +19,7 @@ EOF
 
 apt update
 
-apt install ufw docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin-y
+apt install ufw docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 ufw allow 22
 ufw allow 25565
