@@ -1,0 +1,13 @@
+name = "Kubiki Q3 2026"
+author = "Tapeline"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "2c0b18776eba566f446603850066a90e02ac6147d45e5e4f4bce96eac8a446b2"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.241"
