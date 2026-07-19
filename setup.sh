@@ -23,5 +23,5 @@ apt install ufw docker-ce docker-ce-cli containerd.io docker-buildx-plugin docke
 
 ufw allow 22
 ufw allow 25565
-ufw enable -y
+ufw enable
 ufw reload
