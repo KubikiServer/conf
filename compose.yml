@@ -41,6 +41,22 @@ services:
       interval: 5s
       retries: 20
 
+  backup:
+    image: itzg/mc-backup
+    restart: unless-stopped
+    environment:
+      BACKUP_INTERVAL: "12h"
+      RCON_HOST: mc
+      INITIAL_DELAY: 0
+    volumes:
+      - ./data:/data:ro
+      - ./world-backups:/backups
+    networks:
+      - main
+    depends_on:
+      confserver:
+        condition: service_started
+
   confserver:
     image: python:slim
     hostname: confserver
@@ -63,6 +79,20 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     networks:
       - main
+
+  web:
+    image: nginx:alpine
+    restart: unless-stopped
+    ports:
+      - "8000:80"
+    volumes:
+      - ./frontend:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    deploy:
+      resources:
+        limits:
+          cpus: '0.2'
+          memory: 100M
 
 
 networks:
