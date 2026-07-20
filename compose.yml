@@ -57,7 +57,7 @@ services:
   portainer:
     image: portainer/portainer-ce:latest
     ports:
-      - "9000:9443"
+      - "9000:9000"
     volumes:
       - portainer_data:/data
     networks:

@@ -76,6 +76,12 @@ jobs:
           cd modpack/dist
           zip -r ../pack.zip .
 
+      - name: Publish Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: modpack_dist
+          path: modpack/pack.zip
+
       - name: Update release
         run: gh release upload ${{ github.ref_name }} modpack/pack.zip
         env:
