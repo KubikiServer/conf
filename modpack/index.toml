@@ -51,8 +51,33 @@ hash = "e002fab16a9b9ef0a35844030339612a38d3c58b0b93e97a34eb43ddc9108be7"
 metafile = true
 
 [[files]]
+file = "mods/creat-aeronautics-structures.pw.toml"
+hash = "692aa6f5a5254b7eee23afec6275f9ee6dd9b46ac2c25cf1929a55e2310f1d36"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-climbable-rope.pw.toml"
+hash = "db2ec960ce42b3d381003c82cff71e68a7c55c68117c3bf43ad2418111260065"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-portable-engine-liquid-fuel.pw.toml"
+hash = "aa69dc9a1d57d4c3c4f83627017b5a741c301f42f83f25a47bc420e869f9d931"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-transmission-linkage.pw.toml"
+hash = "aabc3d94ea527039798baa69d7c381cb679afa63f2d842c5357bb8d186792e5b"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "5fab8d2e412683dfd72f08cf6750e51b03cb43192e8eb783e962ba28d20978bc"
+metafile = true
+
+[[files]]
+file = "mods/create-aeroworks.pw.toml"
+hash = "ff5cc2cb323fcfc334b4975b2d23ddffa01a6c42fb9b73128f7409bc617d9f4b"
 metafile = true
 
 [[files]]
@@ -76,18 +101,38 @@ hash = "404db1758af44123b89cbf6e2ffdf4a5cf11b708be665f48657ff40735723152"
 metafile = true
 
 [[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "8c13c49284e9c2f9007874916ab401799f66f5549779881ab2b9bcc57d450f13"
+metafile = true
+
+[[files]]
 file = "mods/create-dreams-and-desires.pw.toml"
 hash = "c308b557b01b6e6cc25ee8d6a1a7c78bca2b71be3ae645e40d10cf25259fabcd"
 metafile = true
 
 [[files]]
-file = "mods/create-new-age.pw.toml"
-hash = "39499039e11a6e0f50542d80af94c172342fdb686f3a59d5ee4457d978a54e75"
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "ff6a3d4bed914978aada4a059a16100cd2fd69a3cf19987c0d80160a7125e78b"
+metafile = true
+
+[[files]]
+file = "mods/create-mob-spawners.pw.toml"
+hash = "ba6d9babe5ec9b683b620b391f13169b2d998ec1285d5291cf8ea49028a1445c"
+metafile = true
+
+[[files]]
+file = "mods/create-optical.pw.toml"
+hash = "c42f5f98141fa759c4da854b0f11562d0907ccf130a7e522b04d5b574d191087"
 metafile = true
 
 [[files]]
 file = "mods/create-pipes-n-physics.pw.toml"
 hash = "7e360afaa52084defb6f2409ee32e6703350beb006816c4200790422dfdbefe3"
+metafile = true
+
+[[files]]
+file = "mods/create-propulsion-simulated.pw.toml"
+hash = "b3adf7e1a518ce4e49332c3d5855d5c9cdc4ff10a31dc652e5daa85d8f33a619"
 metafile = true
 
 [[files]]
@@ -111,8 +156,33 @@ hash = "cc05bcaec0e857c6a6f7de4bd09a22ad195b5b77a25e4adfe737915ac3be68db"
 metafile = true
 
 [[files]]
+file = "mods/create-totem-factory.pw.toml"
+hash = "7127c67adb2b6b6e2bfeb0c553f789f689c1b1e1790cbb4f298be31abedc4a1a"
+metafile = true
+
+[[files]]
+file = "mods/create-towed.pw.toml"
+hash = "614e84fdbc73e9381fa162c6307ba2502cdaedcca45fd6210e657b5242744282"
+metafile = true
+
+[[files]]
+file = "mods/create-tracks+.pw.toml"
+hash = "967d62bf386e87dc66ebe3dd2d6e1368bd0d0c155cb6f120a37c37802165920c"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "dcaf5f2e28db0b9a127d0167456832341045ddc9aec058c3d9fcf53f618d2404"
+metafile = true
+
+[[files]]
+file = "mods/createaddition.pw.toml"
+hash = "350357b34feae2f0971d114ba856e4915e508efec110eea5ebdeac419d515e08"
+metafile = true
+
+[[files]]
+file = "mods/createnuclear.pw.toml"
+hash = "e7a6cda82ddd91e08e2fbadff97d4590861f0ca78d9fa12a8693de25f48a58ac"
 metafile = true
 
 [[files]]
@@ -191,6 +261,16 @@ hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "b6d7448e14c747318b083d7903baa4801ad524853f34205aa19f0cfa18ec0a92"
+metafile = true
+
+[[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
+metafile = true
+
+[[files]]
 file = "mods/power-grid.pw.toml"
 hash = "1c5522db3b8327e889b0ec6fe8569c4f864b8515a5f1cf439c4bae86a86234e2"
 metafile = true
@@ -208,6 +288,11 @@ metafile = true
 [[files]]
 file = "mods/rpl.pw.toml"
 hash = "7815e5a589de0c02a62ae83590e1f75f4d0c269e48f2435ce2ac448976ddf49f"
+metafile = true
+
+[[files]]
+file = "mods/sable-ragdolls.pw.toml"
+hash = "bf3c84eff52457596d58a73882e72759804117f0731a0fde343cfd54d33e55ba"
 metafile = true
 
 [[files]]
@@ -238,6 +323,16 @@ metafile = true
 [[files]]
 file = "mods/toms-peripherals.pw.toml"
 hash = "3072d18000a88e43e937e591d115e96a196bf5e9a7eecdc56f6d2cf71f8cd3b3"
+metafile = true
+
+[[files]]
+file = "mods/vista-aeronautics-fix.pw.toml"
+hash = "72010b09a0bf4d7622d86bae25852c88d71f7259eea2d1c6955b90af4935b682"
+metafile = true
+
+[[files]]
+file = "mods/vista_tv.pw.toml"
+hash = "ac47c20d97ad6eec049684f3accf4552d96c73e28fe9404cf3dcc7bbeb9b5237"
 metafile = true
 
 [[files]]
