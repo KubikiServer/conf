@@ -21,7 +21,11 @@ apt update
 
 apt install ufw docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
+curl -fsSL https://tailscale.com/install.sh | sh
+
 ufw allow 22
 ufw allow 25565
+ufw allow from 100.64.0.3 to any port 8000 proto tcp
+ufw allow from 100.64.0.3 to any port 9000 proto tcp
 ufw enable
 ufw reload
