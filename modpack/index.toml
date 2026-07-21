@@ -408,10 +408,6 @@ hash = "7e6948368276f2c49d5bccf52cbf80930d0daca75b4dfbc5530479f1d3f95cf8"
 metafile = true
 
 [[files]]
-file = "packwiz.json"
-hash = "76d85279acaa4ac3c4c0c90025330e6f2f18c7834d2578ac6788d810f5232e01"
-
-[[files]]
 file = "resourcepacks/computercreate.pw.toml"
 hash = "2f0b6f84cdc4f74df9f886665481e1e2b5f81ea87d2969c6e15d529a15355825"
 metafile = true
