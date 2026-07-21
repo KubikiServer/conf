@@ -1,0 +1,5 @@
+modpack/packwiz-installer-bootstrap.jar
+modpack/packwiz-installer.jar
+modpack/mods/*.jar
+modpack/resourcepacks/*.zip
+modpack/packwiz.json
