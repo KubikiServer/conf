@@ -1,6 +1,78 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fancymenu/assets/Kubiki.png"
+hash = "38b59fdf9586e5a9be7ac01f03ccaaf0d5e518c80bb3c7ac135794e983d46c29"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
+
+[[files]]
+file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+hash = "76234439fd0e6bb04b885e98dbe0a1ce911269f3c0c24204605da8e84abff108"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "d462376ae8cd7f265b52528c586a29a27f2a6664cfb0c95bb382f555334ce658"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "0b5b40a2846d23e3d343e4cb330cc80010b02d5905d9e990b5d67c48eee8006a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cherry_blossom.json"
+hash = "993c16664fe2d1b9e8ad107bf1c19c1dbb244729c403ed058ca2e54616dc5452"
+
+[[files]]
+file = "config/fancymenu/ui_themes/cozy_campfire.json"
+hash = "1e7505231b9d99e6315845043ce810dfc7004ce1d8f5a4ceddb4ecb96c03ac50"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "01e2a3b5d250c0259a7f97f0d353785bfeab6d7ee2e147c16bb910f1d23e9498"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark_high_contrast.json"
+hash = "54316a2b309ddb472b9133f8ccb8694dce9b57be6ebcfb3c2e9d1bbfdade3f26"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "a05e95f7b62f338049fe0045d9a6a50060d3aba52d5ab83ac1ed6ff55cac1153"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light_high_contrast.json"
+hash = "7c96ba2f2cb4d59d20eaf88960de7a9308ce8a3460c4e1757e07c42e174ea65a"
+
+[[files]]
+file = "config/fancymenu/ui_themes/pumpkin_soup.json"
+hash = "7c6a5d5b19e53ca2f88371c2e867f51339b045697aab29864df5877a6bba9311"
+
+[[files]]
+file = "config/fancymenu/ui_themes/purple_void.json"
+hash = "fa63577441fd576ebac90ecf06b7ded376cbf80ca5103d398bc9a73a25c6c2c0"
+
+[[files]]
+file = "config/fancymenu/ui_themes/spooky_season.json"
+hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
 file = "mods/advancedperipherals.pw.toml"
 hash = "b2890f92c87f48cb45a0d8053f69afdbee6ce828c07cd0d7d4c3fd7c201e3eb0"
 metafile = true
@@ -38,11 +110,6 @@ metafile = true
 [[files]]
 file = "mods/cccbridge.pw.toml"
 hash = "0194091946d249681e33dd32a927122e844d4093c2f14165f2f99f92e028af11"
-metafile = true
-
-[[files]]
-file = "mods/cchq-speakers.pw.toml"
-hash = "d55afad7e5c141b85bcf190baa8168ce87d187df6f83f205100fc75d5100b2aa"
 metafile = true
 
 [[files]]
@@ -331,11 +398,6 @@ hash = "3072d18000a88e43e937e591d115e96a196bf5e9a7eecdc56f6d2cf71f8cd3b3"
 metafile = true
 
 [[files]]
-file = "mods/vista-aeronautics-fix.pw.toml"
-hash = "e6984ff406125d06bd2b27acbc7c9ed3f524e2110649963461fa5a18ea39ac96"
-metafile = true
-
-[[files]]
 file = "mods/vista_tv.pw.toml"
 hash = "ac47c20d97ad6eec049684f3accf4552d96c73e28fe9404cf3dcc7bbeb9b5237"
 metafile = true
@@ -346,6 +408,14 @@ hash = "7e6948368276f2c49d5bccf52cbf80930d0daca75b4dfbc5530479f1d3f95cf8"
 metafile = true
 
 [[files]]
+file = "packwiz.json"
+hash = "76d85279acaa4ac3c4c0c90025330e6f2f18c7834d2578ac6788d810f5232e01"
+
+[[files]]
 file = "resourcepacks/computercreate.pw.toml"
 hash = "2f0b6f84cdc4f74df9f886665481e1e2b5f81ea87d2969c6e15d529a15355825"
 metafile = true
+
+[[files]]
+file = "servers.dat"
+hash = "896157ce0ab063df013a34ff0d480b738cbf6e4065e3e10909e6e63a2f7fde06"
