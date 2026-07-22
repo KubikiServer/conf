@@ -18,7 +18,7 @@ services:
       USE_MEOWICE_FLAGS: "true"
       TZ: "Asia/Yekaterinburg"
       DIFFICULTY: "2"
-      MODE: "1"
+      MODE: "0"
       FORCE_GAMEMODE: "true"
       ENABLE_COMMAND_BLOCK: "true"
       LEVEL_TYPE: "large_biomes"
