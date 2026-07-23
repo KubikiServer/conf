@@ -26,6 +26,9 @@ services:
       ALLOW_FLIGHT: "true"
       ACCEPTS_TRANSFERS: "false"
       ENABLE_AUTOPAUSE: "false"
+      JVM_OPTS: -XX:+UseZGC -XX:+ZGenerational -XX:+ZUncommit
+      VIEW_DISTANCE: "6"
+      SIMULATION_DISTANCE: "4"
     volumes:
       - "./data:/data"
     networks:
