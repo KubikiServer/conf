@@ -14,8 +14,6 @@ services:
       ICON: "http://confserver:8080/icon.png"
       OVERRIDE_ICON: "true"
       ONLINE_MODE: "false"
-      USE_AIKAR_FLAGS: "true"
-      USE_MEOWICE_FLAGS: "true"
       TZ: "Asia/Yekaterinburg"
       DIFFICULTY: "2"
       MODE: "0"
@@ -40,6 +38,12 @@ services:
       start_period: 1m
       interval: 5s
       retries: 20
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+        reservations:
+          cpus: '3'
 
   backup:
     image: itzg/mc-backup

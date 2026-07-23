@@ -3,5 +3,3 @@ modpack/packwiz-installer.jar
 modpack/mods/*.jar
 modpack/resourcepacks/*.zip
 modpack/packwiz.json
-modpack/dist
-dist/
