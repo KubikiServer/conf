@@ -1,0 +1,13 @@
+name = "Barehanded"
+filename = "barehanded-neoforge-1.21.1-1.6.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb15422c1f0dfc009f67c476fcd6acf124cc4d7d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8481573
+project-id = 1565886
