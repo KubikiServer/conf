@@ -378,11 +378,6 @@ hash = "d7ff27bf5e0c0bd5ede8303d5a41cec193f700292c78c86ad6812a5193f013d9"
 metafile = true
 
 [[files]]
-file = "mods/mimi-mod.pw.toml"
-hash = "f6162f77693b831c3c2d95e23aab9bb8ca880031c7e2349a41a95edfa37ee400"
-metafile = true
-
-[[files]]
 file = "mods/mimi.pw.toml"
 hash = "5a3cb15ece27aaca83bc167468bbad97b3f964b8889e3c067e244decd126b7a2"
 metafile = true
@@ -394,7 +389,7 @@ metafile = true
 
 [[files]]
 file = "mods/msp-backpacks.pw.toml"
-hash = "fc681cc7f0d9a1d447eed5083ffc12d0b87ac01a72350a51674b687ad71f0733"
+hash = "792ec92b019d0e8c9911460e6857c3369354563b07d9ccc235e301523abd967a"
 metafile = true
 
 [[files]]
