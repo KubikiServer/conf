@@ -3,11 +3,11 @@ filename = "barehanded-neoforge-1.21.1-1.6.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "cb15422c1f0dfc009f67c476fcd6acf124cc4d7d"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/NnSJuVRa/versions/T3TGw1Bk/barehanded-neoforge-1.21.1-1.6.4.jar"
+hash-format = "sha512"
+hash = "1763f6692be68c93f1d776e49f3e15dc3f9bf98d333f249d07d45d019fd1b7bf8393e0c434410c8b0fe0a74342813770d2534f4af85fbe63765992f6ed0a9179"
 
 [update]
-[update.curseforge]
-file-id = 8481573
-project-id = 1565886
+[update.modrinth]
+mod-id = "NnSJuVRa"
+version = "T3TGw1Bk"

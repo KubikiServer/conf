@@ -89,7 +89,7 @@ metafile = true
 
 [[files]]
 file = "mods/barehanded.pw.toml"
-hash = "fc6681ccd5696011efeb6aa7e781e55154030556d0f1f36ffe36b5ce6d701b7e"
+hash = "09caaa2f435e0ed6063b808cc50105894be570bf1f0c07a2664265653caddf86"
 metafile = true
 
 [[files]]
@@ -124,7 +124,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
@@ -293,8 +293,8 @@ hash = "eea753771cfbd43beb266fefdb1953f718f6aee6c78f10384c8db7150bb37d84"
 metafile = true
 
 [[files]]
-file = "mods/endremastered.pw.toml"
-hash = "d79818e801019eeaedc8a3188d0d1ed778c9d261c6fdda12c20470e5b07b8994"
+file = "mods/endrem.pw.toml"
+hash = "db22718a1efaf2c691cf3bdddc61b0b06bedff7cb0722aa8b1bdf4f095d116cc"
 metafile = true
 
 [[files]]
@@ -380,6 +380,11 @@ metafile = true
 [[files]]
 file = "mods/mimi-mod.pw.toml"
 hash = "f6162f77693b831c3c2d95e23aab9bb8ca880031c7e2349a41a95edfa37ee400"
+metafile = true
+
+[[files]]
+file = "mods/mimi.pw.toml"
+hash = "5a3cb15ece27aaca83bc167468bbad97b3f964b8889e3c067e244decd126b7a2"
 metafile = true
 
 [[files]]
